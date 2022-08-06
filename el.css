@@ -1,4 +1,14 @@
-.reloj { width: 150px; height: 30px; padding: 5px 10px; border: 1px solid black; 
+body {
+    background-color: rgb(216, 216, 158);
+}
+
+#reloj { width: 150px; height: 30px; padding: 5px 10px; border: 1px solid black; 
     font: bold 1.5em dotum, "lucida sans", arial; 
     text-align: center;
     float: right; margin: 1em 3em 1em 1em; }
+
+#titulo_index {
+    text-align: center;
+    background-color: rgb(42, 122, 42);
+    color: white;
+}
