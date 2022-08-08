@@ -1,14 +1,57 @@
 body {
-    background-color: rgb(216, 216, 158);
+    background-color: darkslategray;
 }
 
-#reloj { width: 150px; height: 30px; padding: 5px 10px; border: 1px solid black; 
+#reloj { width: 150px; height: 30px; padding: 5px 10px; border: 3px outset; border-radius: 8px;
     font: bold 1.5em dotum, "lucida sans", arial; 
     text-align: center;
-    float: right; margin: 1em 3em 1em 1em; }
+    float: right; margin: 1em 3em 1em 1em;
+    color: lightsalmon;
+}
 
 #titulo_index {
+    margin: 8px;
+    padding: 8px;
+    border-style: outset;
+    border-width: 3px;
+    border-radius: 8px;
     text-align: center;
     background-color: rgb(42, 122, 42);
     color: white;
+}
+
+#deinicio {
+    margin: 8px;
+    padding: 8px;
+    border-style: outset;
+    border-width: 3px;
+    border-radius: 8px;
+    background-color: darkred;
+}
+
+a {
+    
+    color: lightsalmon;
+}
+
+.caja{
+    margin: 4px;
+    margin-left: 30px;
+    padding: 4px;
+    border-style: outset;
+    border-width: 3px;
+    border-radius: 8px;
+    background-color: darkred;
+    width: 150px;
+
+}
+
+#go_homepage {
+    margin: 4px;
+    padding: 4px;
+    border-style: outset;
+    border-width: 3px;
+    border-radius: 8px;
+    background-color: darkred;
+    width: 150px;
 }
